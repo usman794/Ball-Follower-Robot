@@ -6,3 +6,10 @@ Then as the ball is moving then in order to track the ball position, Kalman fite
 After this stage, the exact location of red coloured ball in the image is identified.
 Using Kinect Sensor, depth information for each pixel is received. Using the depth information for the centre pixel of red coloured ball, control scheme is designed.
 Control scheme is the proportional controlled scheme whioch maintains the ball at the centre of image and also make the robot to move forwrad or backward depending upon on the error of the depth information of the ecntre pixel of ball and the specific distance that is to be maintined.
+THe code wil run with trutlebot configuration.
+
+
+-Run directly the code track_red_ball_08_07_integral.m
+
+For visualization of the working of turtlebot please visit,
+https://www.youtube.com/watch?v=yZw_IG3000E
